@@ -1,0 +1,56 @@
+/*general setting starts here*/
+* {
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+/*for general setting ends here*/
+
+/*for header section of the page starts here*/
+
+header * {
+	display: inline-block;
+	color:white;
+	background-color:black;
+/*	height:100%;
+*/}
+header {
+	height:50px;
+	background-color:black;
+	padding-left: 10px;
+}
+h1 {
+	width: 140px;
+    height: 100%;
+    padding-top: 5px;
+}
+.contact-icons {
+	float :right;
+	height:90%;
+}
+.contact-icons img{
+	height:90%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+header nav {
+	align-items: center;
+}
+/*for header end here*/
+/*css for top part*/
+
+.top-part
+{
+	background-image:url(../images/intro.jpg);
+	height:100vh;
+}
+.top-part h2 {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	
+}
