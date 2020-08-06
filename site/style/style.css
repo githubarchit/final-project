@@ -48,9 +48,14 @@ header nav {
 {
 	background-image:url(../images/intro.jpg);
 	height:100vh;
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
 }
 .top-part h2 {
 	font-family: sans-serif;
 	font-variant: small-caps;
-	
+	color:white;
+	display:inline-block;
+	width
 }
