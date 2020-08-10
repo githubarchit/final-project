@@ -8,10 +8,7 @@ a {
 	text-decoration: none;
 	color: grey;
 }
-.container img {
-	height:200px;
-	width:250px;
-}
+
 body{
 	background-color:#dff1d6;
 }
@@ -113,17 +110,96 @@ header nav {
 	border-radius: 20px;
 	background-color: #ffffff;
 	padding:20px;
-	overflow-wrap: contain;
+	overflow-x: 
 }
 /*styling for wrapper ends here*/
 /*styling for inner boxes start here*/
 .small-box {
 	width:400px;
-	border:1px solid black;
+	border:2px solid #dff1d6;
+	border-radius:15px;
+	padding:10px;
 }
-.right {
+.left-col,.right-col{
+	width:50%;
+}
+
+.right-col {
 	float:right;
 }
-.left {
+
+.left-col {
 	float:left;
+}
+
+.right,.left {
+	margin-left:auto;
+	margin-right:auto;
+	width:98%;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.footer,.page-footer{
+	clear:both;
+}
+/*styling for inner boxes ends here*/
+/*styling for the images in the boxes*/
+.container img {
+	height:auto;
+	width:100%;
+}
+.img-box {
+	margin-top:10px;
+	width:90%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*styling for images in boxes ends here*/
+/*styling for content starts here*/
+.container a {
+	font-size: 130%;
+
+}
+h3 {
+	font-size:1.8em;
+	font-family:cursive;
+}
+
+.small-box p {
+	font-size:150%;
+}
+.date {
+	display: inline-block;
+	margin-left: 8px;
+	padding-left:5px;
+	font-size:1.3em;
+	border-left:2px dashed black;
+}
+/*styling of content ends here*/
+/*styling of footer in container starts here*/
+footer {
+	text-align:center;
+	margin-top:10px;
+}
+footer span {
+	font-size:1.3em;
+}
+
+hr {
+	border-top:1px dashed black;
+	margin-top:5px;
+	border-radius:25px;
+}
+/*styling of footer in container ends here*/
+/*styling of page fotter starts here*/
+.footer {
+    padding-top: 10px;
+    margin-top: -20px;
+    background-color: darkgrey;
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    width: 100%;
 }
