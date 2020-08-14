@@ -103,4 +103,15 @@ h1 {
 
 img {
     border-radius:15px;
+    display:block;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.caption{
+    color:black;
+    font-family: monospace;
+    font-size:110%;
+    font-weight: 800;
+
 }
