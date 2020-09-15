@@ -1,3 +1,118 @@
-body {
-	background-color:darkred;
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+h1 {
+ font-family: 'Pacifico', cursive;
+  letter-spacing: .1rem;
+  color: #D0378C;
+  background-color:black;
+  font-size:4em;
+  text-align:center;
+  margin-left:2px;
+  margin-right:2px;
+  border-radius:25px;
+}
+
+.disclamer>h3 {
+    text-align:center !important;
+    height:auto;
+    font-size:1.5em;
+    color:red;
+    font-family: monospace;
+}
+
+.disclamer {
+    margin:5px;
+    background-color:lightgrey;
+    color:purple;
+    border-radius:24px;
+    font-size:2em;
+    font-family:monospace;
+    padding:5px;
+    text-align:center;
+}
+
+.main-wish>h3 {
+    font-family: 'Pacifico', cursive;
+    color: #D0378C;
+    font-size:1.5em;
+    margin-left:10px;
+}
+
+.main-wish {
+      margin:5px;
+    background-color:lightgrey;
+    color:purple;
+    border-radius:24px;
+    font-size:1.6em;
+    font-family:'Oxygen',sans-serif;
+    padding:5px;
+    text-align:left;
+}
+
+.emphasis {
+    font-size:130%;
+    font-weight: 800;
+    color:darkred;
+    display:block;
+    text-align:center;
+
+}
+
+.conclusion>h3 {
+    font-family: 'Pacifico', cursive;
+    color: #D0378C;
+    font-size:1.5em;
+    margin-left:10px;
+}
+
+.conclusion {
+      margin:5px;
+    background-color:lightgrey;
+    color:purple;
+    border-radius:24px;
+    font-size:1.6em;
+    font-family:'Oxygen',sans-serif;
+    padding:5px;
+    text-align:left;
+}
+
+.very-special {
+    font-family: cursive;
+    color: black;
+    font-weight: 600;
+    font-size: larger
+}
+
+.final-wish {
+    display:block;
+     font-family: 'Pacifico', cursive;
+  letter-spacing: .1rem;
+  color: #D0378C;
+  background-color:black;
+  font-size:4em;
+  text-align:center;
+  margin-left:2px;
+  margin-right:2px;
+  border-radius:25px;
+}
+
+img {
+    border-radius:15px;
+    display:block;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.caption{
+    color:black;
+    font-family: monospace;
+    font-size:110%;
+    font-weight: 800;
+
 }
